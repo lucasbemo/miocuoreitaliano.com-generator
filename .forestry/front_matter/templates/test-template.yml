@@ -1,0 +1,13 @@
+---
+label: test-template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  hidden: false
+  label: title-label
+  name: title-label
+  description: title
+- type: textarea
+  name: content-label
+  label: content-label
