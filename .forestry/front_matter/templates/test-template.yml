@@ -5,11 +5,12 @@ is_partial: false
 fields:
 - type: text
   hidden: false
-  label: title-label
-  name: title-label
-  description: title
+  label: DATE
+  name: DATE
+  description: date
 - type: textarea
-  name: content-label
-  label: content-label
+  name: TITLE
+  label: TITLE
+  description: title
 pages:
 - content/post/test-post.html
