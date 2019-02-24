@@ -31,5 +31,3 @@ fields:
 - type: text
   name: author
   label: AUTHOR
-pages:
-- content/post/test-post.html
