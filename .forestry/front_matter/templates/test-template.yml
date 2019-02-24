@@ -11,3 +11,5 @@ fields:
 - type: textarea
   name: content-label
   label: content-label
+pages:
+- content/post/test-post.html
