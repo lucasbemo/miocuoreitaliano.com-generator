@@ -21,5 +21,18 @@ fields:
 - type: tag_list
   label: TAGS
   name: tags
+- type: file
+  name: authoravatar
+  label: AUTHORAVATAR
+- type: text
+  name: weight
+  label: WEIGHT
+  default: '10'
+- type: text
+  name: linktitle
+  label: LINKTITLE
+- type: text
+  name: author
+  label: AUTHOR
 pages:
 - content/post/test-post.html
