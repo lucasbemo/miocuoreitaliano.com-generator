@@ -18,9 +18,6 @@ fields:
 - type: text
   label: DESCRIPTION
   name: description
-- type: tag_list
-  label: TAGS
-  name: tags
 - type: file
   name: authoravatar
   label: AUTHORAVATAR
