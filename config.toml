@@ -6,6 +6,9 @@ paginate        = 6
 canonifyurls    = true
 #SectionPagesMenu = "main"
 
+[outputs]
+home = ["HTML", "RSS"]
+
 [params]
   # title       = "Blog da Katia"
   subtitle    = "Mio Cuore Italiano"
