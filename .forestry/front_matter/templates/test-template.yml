@@ -3,14 +3,23 @@ label: test-template
 hide_body: false
 is_partial: false
 fields:
-- type: text
-  hidden: false
+- type: datetime
+  name: date
   label: DATE
-  name: DATE
-  description: date
-- type: textarea
-  name: TITLE
+- type: text
+  name: title
   label: TITLE
-  description: title
+- type: file
+  label: IMAGE
+  name: image
+- type: tag_list
+  label: CATEGORIES
+  name: categories
+- type: text
+  label: DESCRIPTION
+  name: description
+- type: tag_list
+  label: TAGS
+  name: tags
 pages:
 - content/post/test-post.html
