@@ -1,0 +1,62 @@
+baseurl         = "https://miocuoreitaliano.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+canonifyurls    = true
+#SectionPagesMenu = "main"
+
+[params]
+  # title       = "Blog da Katia"
+  subtitle    = "Mio Cuore Italiano"
+  copyright   = "©Todos os direitos reservados"
+
+  cover       = "img/coliseu.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = ["css/katia.css"]
+  RSSLink = ""
+
+  # twitterName = "faketryghost"
+  fbName = "katia.dejesuszamboni"
+  # githubName = "eueung"
+
+  # logo = "hugo-logo.png"
+  # orgName = "katiazamboni"
+  # orgWebsite = "https://www.katiazamboni.com"
+  # orgDescription = "Here is a description placeholder for your org"
+
+  author = "KZ"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Osasco, SP"
+  authorWebsite = "https://katiazamboni.com"
+  # authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Página Não Encontrada."
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+# [[menu.main]]
+#   name = "Go"
+#   url = "/tags/golang/"
+#   weight = 100
+
+# [[menu.main]]
+#   name = "Food"
+#   url = "/categories/food/"
+#   weight = 99
+
+# [[menu.main]]
+#   name = "External"
+#   url = "https://google.com/"
+#   weight = 95
