@@ -7,7 +7,7 @@ canonifyurls    = true
 #SectionPagesMenu = "main"
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML"]
 
 [params]
   # title       = "Blog da Katia"
